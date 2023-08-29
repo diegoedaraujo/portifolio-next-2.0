@@ -4,7 +4,10 @@ import { motion } from "framer-motion";
 
 export default function About() {
   return (
-    <div
+    <motion.div
+      initial={{ opacity: 0 }}
+      whileInView={{ opacity: 1 }}
+      transition={{ duration: 1.5 }}
       className="flex flex-col relative h-screen text-center md:text-left
     md:flex-row max-w-7xl px-10 justify-evenly mx-auto items-center"
     >
@@ -34,14 +37,14 @@ export default function About() {
           background
         </h4>
         <p className="text-sm">
-          👋Hello! I'm a FullStack Developer passionate about creating
+          {`👋 Hello! I'm a FullStack Developer passionate about creating
           exceptional digital experiences. 💼 With a solid career in frontend
           and backend development, I'm focused on transforming creative designs
           on interactive and engaging user interfaces. My experience includes
           leading teams, collaborating with designers and developers and deliver
-          innovative technology solutions.
+          innovative technology solutions.`}
         </p>
       </div>
-    </div>
+    </motion.div>
   );
 }
