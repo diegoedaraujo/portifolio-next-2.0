@@ -28,7 +28,7 @@ function ExperienceCard() {
       <div className="px-0 md:px-10">
         <h4 className="text-4xl font-light">Senior Systems Analyst of Levva</h4>
         <p className="font-bold text-2xl mt-1">Levva</p>
-        <DiJsBadge size="40px" />
+        <DiJsBadge size="40px" color={"#FFD600"} />
         <div className="flex space-x-2 my-2">{/* Tech used */}</div>
         <p className="uppercase py-5 text-gray-300">
           Started work... -Ended...
