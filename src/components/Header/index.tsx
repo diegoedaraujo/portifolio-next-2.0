@@ -31,12 +31,12 @@ export default function Header() {
           bgColor="transparent"
         />
         <SocialIcon
-          url="https://www.youtube.com/@RazielCe"
+          url="https://www.linkedin.com/in/diego-ara%C3%BAjo-b6438121/"
           fgColor="gray"
           bgColor="transparent"
         />
         <SocialIcon
-          url="https://www.youtube.com/@RazielCe"
+          url="https://github.com/diegoedaraujo"
           fgColor="gray"
           bgColor="transparent"
         />
@@ -53,7 +53,7 @@ export default function Header() {
           scale: 1,
         }}
         transition={{
-          duration: 1.5
+          duration: 1.5,
         }}
         className="flex flex-row items-center text-gray-300 cursor-pointer"
       >

@@ -10,7 +10,8 @@ function ExperienceCard() {
     <article
       className="flex flex-col rounded-lg items-center space-y-7 flex-shrink-0
     w-[500px] md:w-[600px] xl:w-[900px] snap-center bg-[#292929] p-10
-    hover:opacity-100 opacity-40 transition-opacity duration-200 overflow-hidden"
+    hover:opacity-100 opacity-40 transition-opacity duration-200 overflow-hidden
+    mt-24"
     >
       <motion.img
         initial={{
